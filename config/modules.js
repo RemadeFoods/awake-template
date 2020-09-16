@@ -18,7 +18,7 @@ export const modules = [
   'nuxt-responsive-loader'
 ]
 if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
-  modules.push('@nuxtjs/google-analytics')
+  modules.push('@nuxtjs/google-gtag')
 }
 
 export const modulesSettings = {
@@ -48,10 +48,7 @@ export const modulesSettings = {
     adapter: require('responsive-loader/sharp'),
     disable: process.env.NODE_ENV === 'development'
   },
-  'google-analytics': {
+  'google-gtag': {
     id: 'G-6YPL2SFMCH'
-  },
-  googleAnalytics: {
-    on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
+  }
 }
