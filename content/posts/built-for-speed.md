@@ -1,44 +1,29 @@
 ---
 title: Loco Moco
-subtitle: Loco Moco
+subtitle: Hamburger Paty, Rice, Soup (Pho), Egg, Flour, Oil
 category:
-  - About Awake
+  - Remade Food Recipes
 author: E Tang
 date: 2019-08-02T04:27:56.800Z
-featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
+featureImage: /uploads/to-go-box.jpg
 ---
-Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
+Loco Moco is a quick simple meal that can use a variety of leftovers. I normally make this when I have leftover hamburger patties, rice, and soup. The leftover soup I've found to work the best is pho as it has a very strong beef flavor that works very well with the hamburger patties.
 
-## The JAM Stack
+## Ingredients 
 
-The JAM stack is a way of building websites that compile down basically to html, css, and javascript and then is served over a CDN. API's are then sprinkled in to add more advanced functionality where needed. Because there is no server, no computations to run, initial response time is like lightening. 
+* Hamburger Patties
+* Rice
+* Soup (Pho)
+* Eggs
+* Vegetable Oil
+* Flour
 
-## Nuxt.js
+## Directions
 
-[Nuxt.js](https://www.nuxtjs.org) has the ability to generate static sites that are served on the JAM Stack, building plain old html files... but those html files are super-powered with Vue.js. What this means, is that pages have content "hard coded" into the html files for top-rate SEO scores but after initial page load behave as a traditional SPA with smooth page transitions, minimal data served between requests, etc. This means Awake is fast both on both the first page visitors hit and even faster on subsequent pages.
+1. Heat vegetable oil in a non stick pan. Crack egg into center of pan. I prefer sunny side up eggs. What I do is cover the pan with a lid for about 30 seconds to slightly cook the yolk without over doing it. For over easy eggs, carefully flip your egg without breaking the yolk and cook for about 1 minute. Be careful not to overcook the yolk. Check both sides and remove when both sides are just brown.
+2. Without washing your pan heat vegetable oil in the same non stick pan. Once hot place cold hamburger patty on pan and quick fry both sides. Our goal is to brown both sides without over cooking the patty. About 45 seconds to 1 minute per side and then remove.
+3. Pour cold soup into pan scraping the bottom of the pan with a wooden spoon to loosen all the brown hamburger bits. As the soup heats up add a teaspoon of flour at a time to thicken the soup until it turns into a gravy. For added thickness and flavor, add a little butter too. Taste your gravy and adjust accordingly with salt, pepper, garlic powder, and anything else to make this magical.
+4. While you are making your gravy, warm up your rice. Microwaving is the easiest. If you prefer to use your pan to get extra flavor in your rice, you can first pour out your gravy into a dish and reserve for plating. Then put the cold rice in the hot uncleaned pan. If the rice is a little hard from being in the refrigerator, pour a teaspoon of water into the pan and cover the pan with a lid. Once the rice heats up, use your wooden spoon to mix the rice with all the leftover gravy in the pan and put in a bowl or plate for final plating.
+5. To assemble you will plate the rice first, then hamburger patty, egg, then gravy on top. Enjoy!
 
-## Purge CSS
-
-Awake uses the [Bulma](https://bulma.io/) framework for a starting place for styles but certainly doesn't use every style the Bulma framework provides. [Purge CSS](https://www.purgecss.com/) minimizes the css sent to the browser by removing any unused styles at compile time. You can read more about how Awake uses Purge CSS in this [post](/light-css-footprint).
-
-## Opti-Image + Responsive Loader
-
-[Opti-Image](https://www.npmjs.com/package/opti-image) is a little vue component I wrote to be able to serve images in the most performant way possible. It supports webp's for browser's that support it (though not using the webp functionality for Awake, yet...), lazy loading out of the box, and easy srcset management. [Responsive Loader (the Nuxt Flavor)](https://www.npmjs.com/package/nuxt-responsive-loader) auto optimizes image quality for best performance in the browser and creates multiple sizes for different devices. Combine these 2 together and all image on Awake are basically guaranteed to fly. 
-
-## Font Awesome 5
-
-Awake comes with Font Awesome 5 support out of the box, so you have a wealth of free quality icons at your finger tips. However, if you're used to using Font Awesome in the more traditional manner without a build step you may be thinking: "What about all those icons I don't actually use? Aren't they just bloat?" Not so with Awake, with webpack we can bundle only the icons we're using. This does mean an extra step of registering a new icon when you want to use it, but that's as easy as adding it to an array in `config/modules.js` like so: 
-
-```
- icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
-```
-
-## Lazy Loading Like Crazy
-
-In order to speed up both compile time and page load time, basically everything but the header, footer, hero, and main content of the posts are lazy loaded. All grids are lazy loaded with infinite scroll and all images (feature images and those in posts) are also lazy loaded. Comments can be lazy loaded or loaded on click of "Show Comments" button.
-
-## Pretty Stinkin' Fast, I'd Say
-
-I've taken a number of steps to try and make Awake as fast and snappy as possible for the end user and I think you'll find it's been handled fairly well. Last I ran one of the posts through Page Speed Insights I got a 99 score for desktop and 89 for mobile. [Give it a try for yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fawake-template.netlify.com%2Fpost-markup-and-formatting%2F&tab=desktop)
-
-![Page speed insights score 99!!](/uploads/page-speed-insights.jpg)
+![]()
