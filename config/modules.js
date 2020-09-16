@@ -51,5 +51,5 @@ export const modulesSettings = {
   'google-gtag': {
     on: true,
     id: process.env.G-6YPL2SFMCH
-  },
+  }
 }
