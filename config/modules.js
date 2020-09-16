@@ -50,5 +50,10 @@ export const modulesSettings = {
   },
   'google-gtag': {
     id: 'G-6YPL2SFMCH'
-  }
+  },
+    publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
 }
