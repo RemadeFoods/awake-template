@@ -49,7 +49,6 @@ export const modulesSettings = {
     disable: process.env.NODE_ENV === 'development'
   },
   'google-gtag': {
-    on: true,
-    id: process.env.G-6YPL2SFMCH
+    id: siteConfig.G-6YPL2SFMCH
   }
 }
