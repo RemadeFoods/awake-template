@@ -7,8 +7,6 @@ author: E Tang
 date: 2020-09-16T22:35:12.751Z
 featureImage: /uploads/to-go-box.jpg
 ---
-
-
 Loco Moco is a quick simple meal that can use a variety of leftovers. I normally make this when I have leftover hamburger patties, rice, and soup. The leftover soup I've found to work the best is pho as it has a very strong beef flavor that works very well with the hamburger patties.
 
 ## [](https://github.com/RemadeFoods/awake-template/blob/master/content/posts/loco-moco.md#ingredients)Ingredients
