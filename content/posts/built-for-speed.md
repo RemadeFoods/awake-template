@@ -1,9 +1,9 @@
 ---
-title: Built For Speed
-subtitle: Awake is Built to Be Blazing Fast
+title: Loco Moco
+subtitle: Loco Moco
 category:
   - About Awake
-author: Daniel Kelly
+author: E Tang
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
