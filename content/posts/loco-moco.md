@@ -25,5 +25,3 @@ Loco Moco is a quick simple meal that can use a variety of leftovers. I normally
 3. Pour cold soup into pan scraping the bottom of the pan with a wooden spoon to loosen all the brown hamburger bits. As the soup heats up add a teaspoon of flour at a time to thicken the soup until it turns into a gravy. For added thickness and flavor, add a little butter too. Taste your gravy and adjust accordingly with salt, pepper, garlic powder, and anything else to make this magical.
 4. While you are making your gravy, warm up your rice. Microwaving is the easiest. If you prefer to use your pan to get extra flavor in your rice, you can first pour out your gravy into a dish and reserve for plating. Then put the cold rice in the hot uncleaned pan. If the rice is a little hard from being in the refrigerator, pour a teaspoon of water into the pan and cover the pan with a lid. Once the rice heats up, use your wooden spoon to mix the rice with all the leftover gravy in the pan and put in a bowl or plate for final plating.
 5. To assemble you will plate the rice first, then hamburger patty, egg, then gravy on top. Enjoy!
-
-![]()
