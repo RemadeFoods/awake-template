@@ -8,11 +8,6 @@ import css from './config/css'
 import { routeMap, otherRoutes } from './config/generate'
 
 export default {
-  plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
-  ]
-}
-export default {
   mode: 'universal',
   /*
    ** Customize the progress-bar color
@@ -33,7 +28,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: plugins, 
+  plugins: [
+    { src: '~plugins/ga.js', mode: 'client' }
+  ]
+}
   /*
    ** Nuxt.js modules
    */
