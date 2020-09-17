@@ -29,7 +29,6 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: 
-     src: '~plugins/ga.js', mode: 'client',
   /*
    ** Nuxt.js modules
    */
@@ -40,8 +39,14 @@ export default {
    ** Build configuration
    */
   build: build
+},
+  modules: [
+    // Simple usage
+    ['@nuxtjs/google-analytics', {
+      id: process.env.GA_ID || ''
+    }]
+ ]
 }
-
 
 /**
  * Create an array of URLs from a list of files
