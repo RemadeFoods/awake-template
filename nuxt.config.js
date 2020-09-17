@@ -35,10 +35,17 @@ export default {
   modules: modules,
   ...modulesSettings,
   /*
+  modules: [
+    [
+      "@nuxtjs/google-analytics",
+      { id: "G-6YPL2SFMCH"}, debug: { sendHitTask: true }
+    ]
+]
    ** Build configuration
    */
   build: build
 }
+
 
 /**
  * Create an array of URLs from a list of files
