@@ -3,6 +3,5 @@ export default [
   '~/plugins/OptiImage',
   '~/plugins/Disqus',
   '~/plugins/EventBus',
-  '~/plugins/Components',
-  { src: '~plugins/ga.js', mode: 'client' }
+  '~/plugins/Components'
 ]
