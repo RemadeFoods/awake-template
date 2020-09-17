@@ -8,6 +8,14 @@ import css from './config/css'
 import { routeMap, otherRoutes } from './config/generate'
 
 export default {
+  buildModules: [
+    '@nuxtjs/google-analytics'
+  ],
+  googleAnalytics: {
+    id: 'G-6YPL2SFMCH'
+  }
+}
+export default {
   mode: 'universal',
   /*
    ** Customize the progress-bar color
@@ -38,13 +46,6 @@ export default {
    ** Build configuration
    */
   build: build
-}
-  buildModules: [
-   '@nuxtjs/google-gtag'
-  ],
-  googleAnalytics: {
-    id: 'G-6YPL2SFMCH'
-  }
 }
 
 /**
