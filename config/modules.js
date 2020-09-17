@@ -50,7 +50,6 @@ export const modulesSettings = {
   'google-analytics': {
     id: 'G-6YPL2SFMCH',
     debug: {
-      sendHitTask: process.env.NODE_ENV !== 'development'
+      sendHitTask: true
   },
-},
 }
