@@ -46,8 +46,9 @@ export const modulesSettings = {
     placeholder: false, // no placeholder will be generated
     quality: 65, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
+    disable: process.env.NODE_ENV === 'development'
   },
-  google-analytics: {
+  'google-analytics': {
     id: 'G-6YPL2SFMCH',
     debug: {
       sendHitTask: process.env.NODE_ENV !== 'development'
