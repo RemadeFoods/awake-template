@@ -51,14 +51,7 @@ export const modulesSettings = {
   'google-gtag': {
     id: 'G-6YPL2SFMCH',
     debug: {
-enabled: true,
-sendHitTask: true
-}
-},
+      sendHitTask: process.env.NODE_ENV !== 'development'
   },
-    publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
 },
 }
