@@ -47,7 +47,7 @@ export const modulesSettings = {
     quality: 65, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
   },
-  'google-analytics': {
+  google-analytics: {
     id: 'G-6YPL2SFMCH',
     debug: {
       sendHitTask: process.env.NODE_ENV !== 'development'
