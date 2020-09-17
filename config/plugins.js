@@ -4,4 +4,5 @@ export default [
   '~/plugins/Disqus',
   '~/plugins/EventBus',
   '~/plugins/Components'
+  '~/plugins/ga
 ]
