@@ -56,4 +56,8 @@ export const modulesSettings = {
       id: process.env.GOOGLE_ANALYTICS_ID
     }
   },
+  googleAnalytics: {
+    on: true,
+    id: process.env.GOOGLE_ANALYTICS_ID
+},
 }
