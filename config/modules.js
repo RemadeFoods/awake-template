@@ -52,4 +52,5 @@ export const modulesSettings = {
     debug: {
       sendHitTask: true
   },
-}
+},
+}  
