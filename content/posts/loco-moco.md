@@ -1,6 +1,6 @@
 ---
 title: Loco Moco
-subtitle: "Ingredients: Hamburger Paty, Rice, Soup (Pho), Egg, Flour, Oil"
+subtitle: "Ingredients: Hamburger Patty, Rice, Soup (Pho), Egg, Flour, Oil"
 category:
   - Remade Food Recipes
 author: E Tang
