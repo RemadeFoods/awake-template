@@ -28,13 +28,12 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: 
+  plugins: plugins,
   /*
    ** Nuxt.js modules
    */
   modules: modules,
   ...modulesSettings,
-  
   /*
    ** Build configuration
    */
