@@ -38,6 +38,13 @@ export default {
    ** Build configuration
    */
   build: build
+},
+    buildModules: [
+    '@nuxtjs/google-gtag'
+  ],
+  googleAnalytics: {
+    id: 'G-6YPL2SFMCH'
+  }
 }
 
 /**
