@@ -18,7 +18,7 @@ export const modules = [
   'nuxt-responsive-loader'
 ]
 if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
-  modules.push('@nuxtjs/google-gtag')
+  modules.push('@nuxtjs/google-analytics')
 }
 
 export const modulesSettings = {
@@ -47,7 +47,7 @@ export const modulesSettings = {
     quality: 65, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
   },
-  'google-gtag': {
+  'google-analytics': {
     id: 'G-6YPL2SFMCH',
     debug: {
       sendHitTask: process.env.NODE_ENV !== 'development'
