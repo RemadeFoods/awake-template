@@ -49,6 +49,6 @@ export const modulesSettings = {
     disable: process.env.NODE_ENV === 'development'
   },
   'googleAnalytics': {
-    id: siteConfig.googleAnalytics.id
+    id: 'G-6YPL2SFMCH'
   }
 }
