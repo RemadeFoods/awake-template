@@ -30,7 +30,7 @@ export default {
    */
   plugins: [
     { src: '~plugins/ga.js', mode: 'client' },
-    { src: '~/plugins/both-sides.js' }],
+    { plugins}],
   /*
    ** Nuxt.js modules
    */
