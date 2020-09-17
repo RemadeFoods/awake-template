@@ -39,13 +39,6 @@ export default {
    ** Build configuration
    */
   build: build
-},
-  modules: [
-    // Simple usage
-    ['@nuxtjs/google-analytics', {
-      id: process.env.GA_ID || ''
-    }]
- ]
 }
 
 /**
