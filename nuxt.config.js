@@ -39,12 +39,6 @@ export default {
    */
   build: build
 }
-  buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'G-6YPL2SFMCH'
-    }]
-  ]
-}
 
 /**
  * Create an array of URLs from a list of files
