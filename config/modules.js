@@ -17,7 +17,7 @@ export const modules = [
   'nuxt-fontawesome',
   'nuxt-responsive-loader'
 ]
-if (siteConfig.googleAnalytics.on && 'G-6YPL2SFMCH') {
+if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
   modules.push('@nuxtjs/googleAnalytics')
 }
 
@@ -46,7 +46,6 @@ export const modulesSettings = {
     placeholder: false, // no placeholder will be generated
     quality: 65, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
-    disable: process.env.NODE_ENV === 'development'
   },
   'googleAnalytics': {
     id: 'G-6YPL2SFMCH'
