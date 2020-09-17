@@ -11,7 +11,7 @@ export default {
   plugins: [
     { src: '~plugins/ga.js', mode: 'client' }
   ]
-},
+}
 export default {
   mode: 'universal',
   /*
