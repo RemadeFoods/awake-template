@@ -32,15 +32,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: modules,
-  ...modulesSettings,
-  /*
-  modules: [
+    modules: [
     [
       "@nuxtjs/google-analytics",
       { id: "G-6YPL2SFMCH"}, debug: { sendHitTask: true }
     ]
 ]
+  modules: modules,
+  ...modulesSettings,
+  
+  /*
    ** Build configuration
    */
   build: build
