@@ -23,21 +23,21 @@ export default {
       link: '/about'
     },
     {
-      name: 'Contact',
-      link: '/contact'
+      name: '',
+      link: '_blank'
     },
     {
       name: 'Categories',
       link: '/categories'
     },
     {
-      name: '_blank',
+      name: '',
       link: '_blank',
       target: '_blank'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
+      name: '',
+      link: '_blank',
       target: '_blank'
     }
   ],
