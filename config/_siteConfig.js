@@ -12,7 +12,7 @@ export default {
   siteName: 'Remade Foods',
   tagline: 'Eliminating Waste One Meal at a Time',
   featureImage: '/uploads/home-hero.jpg',
-  logo: '/icon.png', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/remade.jpg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
