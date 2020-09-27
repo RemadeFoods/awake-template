@@ -19,16 +19,16 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: '',
-      link: '_blank'
+      name: 'Home',
+      link: '/'
     },
     {
       name: 'Recipes',
       link: '/categories'
+    },
+    {
+      name: 'About',
+      link: '/about'
     },
     {
       name: '',
