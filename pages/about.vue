@@ -8,7 +8,7 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>About Remade Foods</h3>
+          <h3>Remade Foods is dedicated to providing the world with reimagined recipes using leftovers.</h3>
           <p>
           </p>
           <p>
