@@ -5,7 +5,7 @@ category:
   - Savory Recipes
 author: Ed T.
 date: 2020-09-29T11:49:24.019Z
-featureImage: /uploads/to-go-box.jpg
+featureImage: /uploads/img-20160404-wa0000-1-.jpg
 ---
 Every Thanksgiving it always seems as though there is a ton of leftover mashed potatoes. Whenever I make it, I totally underestimate how much 1 large potato makes. I remember I used 1 large potato to make garlic mashed potatoes to eat with my prime rib and it was enough to serve 4 people with leftovers! Well maybe it was because the prime was so good.
 
