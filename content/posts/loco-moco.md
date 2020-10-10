@@ -2,7 +2,7 @@
 title: Loco Moco
 subtitle: "Ingredients: Hamburger Patty, Rice, Soup (Pho), Egg, Flour, Oil"
 category:
-  - Remade Food Recipes
+  - Savory Recipes
 author: E Tang
 date: 2020-09-16T23:00:41.846Z
 featureImage: /uploads/img_20160303_100244.jpg
